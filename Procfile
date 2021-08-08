@@ -1,0 +1,1 @@
+web gunicorn kril_to_latin.wsgi
