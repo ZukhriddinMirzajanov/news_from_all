@@ -1,1 +1,1 @@
-web gunicorn kril_to_latin.wsgi
+web gunicorn blog_app.wsgi
