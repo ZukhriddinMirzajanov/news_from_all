@@ -25,10 +25,3 @@ Project is created with:
 * sqlparse==0.4.1; python_version >= '3.5'
 * whitenoise==5.3.0
 	
-## Setup
-To run this project, install it locally using pipenv:
-
-```
-$ pipenv install
-$ python manage.py runserver
-```
