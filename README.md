@@ -5,7 +5,6 @@ news_from_all source code
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
 
 ## General info
 This project blog base website it built in django python framework, postgresql database, html and for styling bootstrap4. The user can sign up and log in to the website and can post news. The project named blog_app and has 2 apps which are blog and users. The main base template inside the blog/templates/blog/base.html from all templates extends from base.html and also bootstrap for styling also added to base template. 
