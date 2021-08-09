@@ -8,7 +8,7 @@ news_from_all source code
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project blog base website it built in django python framework, postgresql database, html and for styling bootstrap4. The user can sign up and log in to the website and can post news. The project named blog_app and has 2 apps which are blog and users. The main base template inside the blog/templates/blog/base.html from all templates extends from base.html and also bootstrap for styling also added to base template. 
 	
 ## Technologies
 Project is created with:
@@ -26,10 +26,9 @@ Project is created with:
 * whitenoise==5.3.0
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using pipenv:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ pipenv install
+$ python manage.py runserver
 ```
