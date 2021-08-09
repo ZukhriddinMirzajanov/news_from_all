@@ -2,15 +2,25 @@
 news_from_all source code
 =============================
 
-To run locally, do the usual:
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-#. Create a Python 3.6 virtualenv
+## General info
+This project is simple Lorem ipsum dolor generator.
+	
+## Technologies
+Project is created with:
+* Lorem version: 12.3
+* Ipsum version: 2.33
+* Ament library version: 999
+	
+## Setup
+To run this project, install it locally using npm:
 
-#. Install dependencies::
-
-    pip install -r requirements/dev.txt
-    npm install
-
-   Alternatively, use the make task::
-
-    make install
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
